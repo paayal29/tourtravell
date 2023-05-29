@@ -1,0 +1,83 @@
+.home{
+    width:100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    mix-blend-mode: hard-light;
+    background-color: teal;
+}
+video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+.homecontent{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    row-gap: 3rem;
+    padding: 8rem 1.5rem 3rem;
+    flex-direction:column;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 30%;
+    color: white;
+    z-index: 100;
+
+}
+.textdiv{
+    padding: 2rem 0;
+}
+.smalltext{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.largetext{
+    position: relative;
+    font-size: 1.8rem;
+}
+.destination-input{
+    text-align: left; 
+ }
+ .inputDate{
+    text-align: left;
+ }
+ .inputprice{
+    text-align: left;
+ }
+ .priceinput{
+    text-align: left;
+ }
+ .range{
+    text-align: left;
+ }
+ .footer-icon{
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    
+ }
+ .left-icon .l-icon{
+    text-align: left;
+    float: left;
+   font-size: 20px;
+    
+ }
+ .left-icon .r-icon{
+    text-align: right;
+    float: right;
+    font-size: 20px;
+ }

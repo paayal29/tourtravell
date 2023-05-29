@@ -1,0 +1,49 @@
+
+.main{
+    width:100%;
+}
+.section-title .title{
+position: relative;
+
+z-index: 2;
+margin:1rem 0;
+}
+.title h1{
+   
+    font: 1em sans-serif;
+}
+.section-content{
+    justify-content: center;
+    gap:1.5rem;
+    width: 80%;
+    margin: auto;
+    
+}
+.singledestination{
+    height: 100%;
+    display: grid;
+    row-gap: 10px;
+    border-radius: 10px;
+    align-items:center;
+    background-color:rgb(208, 226, 226);
+    box-shadow: 0 2px 4px;
+    padding: 0;
+    
+}
+.cardinfo h4{
+    margin: 0;
+}
+.price h5{
+    margin: 0;
+}
+.disc p{
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.imgDiv img{
+    width:100%;
+    object-fit: cover;
+}

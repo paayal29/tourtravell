@@ -1,0 +1,99 @@
+.videoDiv{
+    width:100%;
+    height: max-content;
+}
+.videoDiv video{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 2rem;
+
+}
+.footer{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+   padding: 2rem 0;
+   mix-blend-mode:normal;
+   align-items: center;
+   justify-content: center;
+   margin: auto ;
+}
+.secContent{
+    width: 100%;
+    position: absolute;
+    height: max-content;
+    display: flex;
+    padding: 2rem 0;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    row-gap: 2rem;
+    z-index: 100;
+    text-align: center;
+    
+}
+.text small {
+    color: white;
+    font-weight: 500;
+}
+.text h2{
+    color: white;
+    font-weight: 700;
+}
+.inputDiv{
+    width: 100%;
+    gap:1rem;
+    flex-direction: column;
+}
+.inputDiv input{
+   
+    padding: .5rem .6rem;
+    border: 1px solid rgb(244, 239, 239);
+    border-radius: 3rem;
+    background:transparent;
+    &::Placeholder{
+        color: white;
+    }
+    
+    }
+   .inputDiv .btn{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    gap: .5rem;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: .5rem .6rem;
+}
+.selectfooter{
+    margin: auto;
+    
+}
+.listfooter{
+    float: left;
+    
+}
+
+.listfooter-2{
+    float: right;
+    
+}
+
+.linkfooter .icon{
+  font-size: 1rem;
+}
+@media screen and (min-width:500px) {
+    .footer{
+        .secContant{
+            .footerCard{
+                .selectfooter{
+                    grid-template-columns: repeat(3,1fr);
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
